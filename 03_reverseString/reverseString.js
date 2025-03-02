@@ -19,5 +19,10 @@ const reverseString = function(string) {
 
 console.log(reverseString(''));
 
+//YOU COULDVE PUT THISreturn string.split("").reverse().join("");
+//};
+//PUT "" in the join to remove commas
+
+
 // Do not edit below this line
 module.exports = reverseString;
