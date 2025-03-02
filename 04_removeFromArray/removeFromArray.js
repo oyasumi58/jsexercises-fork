@@ -26,3 +26,16 @@ console.log(removeFromArray([1,2,2,3],1,2,"3"));
 // Do not edit below this line
 module.exports = removeFromArray;
  
+
+//solution
+//make new array => push all items from array into it unless it includes theArgs
+
+// const removeFromArray(array, ...theArgs) {
+//     const newArray = [];
+//     array.forEach((item ) => {
+//         if (!theArgs.includes(item)) {
+//             array.push(item);
+//         }
+//     })
+//     return newArray;
+// }
