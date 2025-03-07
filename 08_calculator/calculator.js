@@ -22,6 +22,7 @@ const power = function(num,pow) {
     for (let i = 0; i < pow; i++) {
       result = result * num
     }
+    //or just use Math/pow()
 	return result;
 };
 
@@ -29,6 +30,7 @@ const factorial = function(num) {
 	let result = 1;
   for(let i=1; i <= num; i++) {
     result = result * i;
+    // or result *= i;
   }
    return result;
 };
