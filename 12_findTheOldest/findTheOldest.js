@@ -62,13 +62,13 @@ console.log(findTheOldest(people).name);
 
 //solution
 
-
+//main way uses reduce function > concise but quite complex
 
 
 //Alt Way of the no death person
 //person.yearOfDeath ??= new Date().getFullYear();
 //use nullish coalescing operator which assigns it a value ONLY if NULL OR UNDEFINED
-
+// rest of alt method is similar to mine >> uses sort
 
 
 
