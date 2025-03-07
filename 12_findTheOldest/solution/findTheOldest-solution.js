@@ -1,3 +1,4 @@
+//func to get age
 const getAge = function (birth, death) {
   if (!death) {
     death = new Date().getFullYear();
@@ -5,6 +6,9 @@ const getAge = function (birth, death) {
   return death - birth;
 };
 
+//toss people into a reduce()
+//oldest is the accumulator and here also is the initial value
+//at the end, the return will be the new value to the accumulator oldest
 const findTheOldest = function (people) {
   return people.reduce((oldest, currentPerson) => {
     const oldestAge = getAge(oldest.yearOfBirth, oldest.yearOfDeath);
